@@ -6,47 +6,32 @@ import { Fragment, useState } from 'react';
 const menuItems = [
   {
     title: 'Agendar Exame',
-    href: 'https://api.whatsapp.com/send/?phone=551839184777&text&type=phone_number&app_absent=0',
+    href: '/unidades',
     isExternal: true,
   },
   {
     title: 'Resultados de Exames',
-    href: 'https://pacs.irpp.com.br/Netpacs-paciente/#/',
+    href: 'https://pacs.clinicavidaradiologia.com.br/login',
     isExternal: true,
   },
   {
-    title: 'Nossas Unidades',
-    href: '/nossas-unidades',
+    title: 'Nossos Exames',
+    href: '/exames',
     isExternal: false,
   },
   {
-    title: 'Nossos Exames',
-    href: '/nossos-exames',
+    title: 'Convênios Atendidos',
+    href: '/convenios',
+    isExternal: false,
+  },
+  {
+    title: 'Nossas Unidades',
+    href: '/unidades',
     isExternal: false,
   },
   {
     title: 'Corpo Clínico',
     href: '/corpo-clinico',
-    isExternal: false,
-  },
-  {
-    title: 'Fale Conosco',
-    href: '/fale-conosco',
-    isExternal: false,
-  },
-  {
-    title: 'Notícias',
-    href: '/noticias',
-    isExternal: false,
-  },
-  {
-    title: 'Convênios Atendidos',
-    href: '/convenios-atendidos',
-    isExternal: false,
-  },
-  {
-    title: 'Sobre o Instituto',
-    href: '/sobre',
     isExternal: false,
   },
 ];
@@ -57,7 +42,7 @@ function HeaderMobile() {
   return (
     <header
       id="top"
-      className="bg-blue-primary sticky top-0 z-10 block shadow lg:hidden"
+      className="sticky top-0 z-10 block bg-blue-primary shadow lg:hidden"
     >
       <div className="mx-auto flex w-11/12 items-center justify-between py-4">
         <Link href="/">
@@ -68,7 +53,7 @@ function HeaderMobile() {
           />
         </Link>
         <div className="flex flex-col items-center gap-2">
-          <Button className="text-blue-primary rounded-2xl border-white bg-white hover:bg-white">
+          <Button className="rounded-2xl border-white bg-white text-blue-primary hover:bg-white">
             Agende seu exame!
           </Button>
         </div>
@@ -111,7 +96,7 @@ function HeaderMobile() {
       {isOpen && (
         <nav
           className={cn(
-            'bg-blue-primary fixed inset-0 z-40 hidden h-full w-screen items-center justify-center lg:relative lg:inset-auto lg:block lg:w-fit lg:bg-transparent',
+            'fixed inset-0 z-40 hidden h-full w-screen items-center justify-center bg-blue-primary lg:relative lg:inset-auto lg:block lg:w-fit lg:bg-transparent',
             isOpen && 'flex lg:block',
           )}
         >

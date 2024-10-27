@@ -7,8 +7,8 @@ function MainLayout({ children }: PropsWithChildren) {
   return (
     <>
       <Header />
+      <main className="bg-main-background">{children}</main>
       <Toaster />
-      {children}
       <Footer />
     </>
   );

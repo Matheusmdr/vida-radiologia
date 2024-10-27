@@ -31,6 +31,9 @@
     --blue-primary: 206 100% 38%;
     --blue-secondary: 218 50% 25%;
     --blue-tertiary: 206 98% 20%;
+    --main-background: 202 73% 96%;
+    --gray-primary: 0 0% 60%;
+    --gray-secondary: 0 0% 38% --gray-tertiary: 0 0% 32%;
   }
   .dark {
     --background: 240 10% 3.9%;

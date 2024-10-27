@@ -3,7 +3,7 @@ import { SocialLinks } from './components/social-links';
 
 function Footer() {
   return (
-    <footer className="bg-blue-tertiary flex flex-col gap-4">
+    <footer className="flex flex-col gap-4 bg-blue-tertiary">
       <div className="mx-auto w-10/12 max-w-7xl space-y-6 py-10 md:w-11/12 md:space-y-14">
         <img
           src="/imgs/logo_branca.png"
@@ -20,7 +20,7 @@ function Footer() {
             <div className="flex flex-col gap-2 text-[8px] font-bold text-white md:text-sm">
               <div className="flex flex-col justify-between gap-2 md:flex-row md:gap-4">
                 <a
-                  href="#"
+                  href="https://pacs.clinicavidaradiologia.com.br/login"
                   target="_blank"
                   rel="noreferrer noopener"
                   className="hover:text-white/80"
@@ -28,7 +28,7 @@ function Footer() {
                   Resultados de Exames
                 </a>
                 <span className="hidden md:block">|</span>
-                <Link href="/nossos-exames" className="hover:text-white/80">
+                <Link href="/exames" className="hover:text-white/80">
                   Nossos Exames
                 </Link>
                 <span className="hidden md:block">|</span>
@@ -36,30 +36,27 @@ function Footer() {
                   Corpo Clínico
                 </Link>
               </div>
-              <div className="flex flex-col justify-between gap-2 md:flex-row md:gap-4">
-                <Link href="/nossas-unidades" className="hover:text-white/80">
+              <div className="flex flex-col gap-2 md:flex-row md:gap-4">
+                <Link href="/unidades" className="hover:text-white/80">
                   Nossas Unidades
                 </Link>
                 <span className="hidden md:block">|</span>
-                <Link
-                  href="/convenios-atendidos"
-                  className="hover:text-white/80"
-                >
+                <Link href="/convenios" className="hover:text-white/80">
                   Convênios Atendidos
                 </Link>
-                <span className="hidden md:block">|</span>
+                {/* <span className="hidden md:block">|</span>
                 <Link href="/fale-conosco" className="hover:text-white/80">
                   Fale Conosco
-                </Link>
+                </Link> */}
               </div>
-              <div className="flex flex-col justify-between gap-2 md:flex-row md:gap-4">
+              {/* <div className="flex flex-col justify-between gap-2 md:flex-row md:gap-4">
                 <Link
                   href="/politica-de-privacidade"
                   className="hover:text-white/80"
                 >
                   Política de Privacidade
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="flex w-full flex-col justify-center">

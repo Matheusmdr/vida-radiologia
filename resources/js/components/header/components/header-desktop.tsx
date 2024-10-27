@@ -11,7 +11,7 @@ function HeaderDesktop({ menuItems }: HeaderDesktopProps) {
   return (
     <header
       id="top"
-      className="bg-blue-primary sticky top-0 z-10 hidden shadow lg:block"
+      className="sticky top-0 z-10 hidden bg-blue-primary shadow lg:block"
     >
       <div className="mx-auto flex w-11/12 max-w-5xl items-center justify-between py-4">
         <Link href="/">
@@ -27,13 +27,13 @@ function HeaderDesktop({ menuItems }: HeaderDesktopProps) {
           target="_blank"
           rel="noreferrer noopener"
         >
-          <Button className="bg-blue-primary hover:text-blue-primary rounded-3xl border-2 border-white text-xl text-white hover:bg-white">
+          <Button className="rounded-3xl border-2 border-white bg-blue-primary text-xl text-white hover:bg-white hover:text-blue-primary">
             Resultados de Exames
           </Button>
         </a>
         <a
           href="tel:+551839184777"
-          className="text-blue-primary text-xl font-semibold"
+          className="text-xl font-semibold text-blue-primary"
           target="_blank"
           rel="noreferrer noopener"
         >

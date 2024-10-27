@@ -1,13 +1,13 @@
 const socialLinks = [
   {
     text: 'Instagram',
-    url: '',
+    url: 'https://www.instagram.com/_vidaradiologia/',
     icon: '/imgs/social/instagram.svg',
     alt: 'Ícone do Instagram.',
   },
   {
     text: 'Facebook',
-    url: '',
+    url: 'https://www.facebook.com/UniVidasRedes/',
     icon: '/imgs/social/facebook.svg',
     alt: 'Ícone do Facebook.',
   },

@@ -4,17 +4,12 @@ import { HeaderMobile } from './components/header-mobile';
 const menuItems = [
   {
     title: 'Nossas Unidades',
-    href: '/nossas-unidades',
-    isExternal: false,
-  },
-  {
-    title: 'Sobre o Instituto',
-    href: '/sobre',
+    href: '/unidades',
     isExternal: false,
   },
   {
     title: 'Nossos Exames',
-    href: '/nossos-exames',
+    href: '/exames',
     isExternal: false,
   },
   {
@@ -24,13 +19,7 @@ const menuItems = [
   },
   {
     title: 'Convênios Atendidos',
-    href: '/convenios-atendidos',
-    isExternal: false,
-  },
-
-  {
-    title: 'Fale Conosco',
-    href: '/fale-conosco',
+    href: '/convenios',
     isExternal: false,
   },
 ];

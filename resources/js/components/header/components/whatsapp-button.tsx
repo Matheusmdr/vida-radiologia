@@ -10,7 +10,7 @@ function WhatsappButton({ className }: WhatsappButtonProps) {
     <a href="#" target="_blank" rel="noreferrer noopener">
       <Button
         className={cn(
-          'text-blue-primary rounded-3xl bg-white text-xl font-bold hover:bg-white',
+          'rounded-3xl bg-white text-xl font-bold text-blue-primary hover:bg-white',
           className,
         )}
       >

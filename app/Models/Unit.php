@@ -1,0 +1,24 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Unit extends Model
+{
+    use HasFactory;
+
+    protected $fillable = [
+        'title',
+        'cover',
+        'body',
+        'address',
+        'gmaps_link',
+        'phone',
+        'whatsapp',
+        'email',
+        'active',
+        'slug',
+    ];
+}
