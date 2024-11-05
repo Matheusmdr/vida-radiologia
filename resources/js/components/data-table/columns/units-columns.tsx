@@ -1,10 +1,10 @@
 import { Checkbox } from '@/components/ui/checkbox';
-import { Units } from '@/types/unit';
+import { Unit } from '@/types/unit';
 import type { ColumnDef } from '@tanstack/react-table';
 import { format } from 'date-fns';
 import { DataTableRowActions } from '../components/data-table-row-actions';
 
-export const unitsColumns: ColumnDef<Units>[] = [
+export const unitsColumns: ColumnDef<Unit>[] = [
   {
     id: 'id',
     header: ({ table }) => (
