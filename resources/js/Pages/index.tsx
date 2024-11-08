@@ -40,7 +40,7 @@ export default function Page({ units, banners }: Props) {
               ))}
             </div>
             <div className="flex justify-center">
-              <Link href="/noticias" className="self-center">
+              <Link href="/unidades" className="self-center">
                 <Button className="h-8 w-fit rounded-3xl border border-blue-primary bg-blue-primary px-5 text-xs font-bold text-white hover:bg-white hover:text-blue-primary md:h-12 md:px-10 md:text-2xl">
                   Mais informações
                 </Button>
