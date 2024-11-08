@@ -1,3 +1,4 @@
+export { CreateAndEditBanners } from './components/create-and-edit-banners';
 export { CreateAndEditClinicalStaff } from './components/create-and-edit-clinical-staff';
 export { CreateAndEditExams } from './components/create-and-edit-exams';
 export { CreateAndEditSubExams } from './components/create-and-edit-subexams';

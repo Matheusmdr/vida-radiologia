@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ClinicalStaffController;
 use App\Http\Controllers\ExamController;
+use App\Http\Controllers\HomeBannerController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\SubExamController;
 use App\Http\Controllers\UnitController;
@@ -82,5 +83,17 @@ Route::middleware(['auth', 'verified'])->group(function () {
     Route::put('/admin/users/{userId}', [UserController::class, 'update'])->name('user.update');
     Route::delete('/admin/users/delete/{userId}', [UserController::class, 'destroy'])->name('user.destroy');
 });
+
+Route::middleware(['auth', 'verified'])->group(function () {
+    Route::get('/admin/banners', [HomeBannerController::class, 'adminIndex'])->name('banners.adminIndex');
+    Route::get('/admin/banners/create', [HomeBannerController::class, 'create'])->name('banners.create');
+    Route::post('/admin/banners', [HomeBannerController::class, 'store'])->name('banners.store');
+    Route::get('/admin/banners/edit/{bannerId}', [HomeBannerController::class, 'edit'])->name('banners.edit');
+    Route::put('/admin/banners/{bannerId}', [HomeBannerController::class, 'update'])->name('banners.update');
+    Route::delete('/admin/banners/delete/{bannerId}', [HomeBannerController::class, 'destroy'])->name('banners.destroy');
+    Route::post('/admin/banners/{bannerId}/delete-image', [HomeBannerController::class, 'deleteImage'])
+        ->name('banners.deleteImage');
+});
+
 
 require __DIR__ . '/auth.php';

@@ -1,28 +1,31 @@
+import { HeroBanner } from '@/components/hero-banner';
 import { HomeLink } from '@/components/home-link';
 import { TextDivider } from '@/components/text-divider';
 import { Button } from '@/components/ui/button';
 import { UnitCard } from '@/components/unit/components/unit-card';
 import MainLayout from '@/layouts/main-layout';
+import { Banners } from '@/types/banners';
 import { Unit } from '@/types/unit';
-import { Head, Link } from '@inertiajs/react';
+import { Link } from '@inertiajs/react';
 
 interface Props {
   units: Unit[];
+  banners: Banners[];
 }
 
-export default function Page({ units }: Props) {
+export default function Page({ units, banners }: Props) {
   return (
     <MainLayout>
-      <Head title="Home" />
+      <HeroBanner banners={banners} />
       <main className="bg-main-background py-10 md:py-20">
-        <section>
+        <section className="block md:hidden">
           <div className="mx-auto flex w-3/5 max-w-sm flex-col justify-center gap-2 md:gap-6">
             <HomeLink href="/" text="Resultados de Exames" />
             <HomeLink href="/exames" text="Nossos Exames" />
             <HomeLink href="/convenios" text="Convênios Atendidos" />
           </div>
         </section>
-        <section className="py-10 md:py-20">
+        <section className="py-10 md:py-20 md:pt-0">
           <div className="mx-auto flex w-11/12 max-w-7xl flex-col justify-center gap-2 md:gap-8">
             <div>
               <h2 className="text-center text-lg font-semibold text-blue-primary md:text-4xl">

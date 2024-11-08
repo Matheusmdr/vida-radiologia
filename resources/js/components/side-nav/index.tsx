@@ -1,4 +1,4 @@
-import { Activity, BookUser, MapPinHouse, Users } from 'lucide-react';
+import { Activity, BookUser, Image, MapPinHouse, Users } from 'lucide-react';
 import * as React from 'react';
 
 import {
@@ -54,6 +54,15 @@ export function SideNav({ children }: React.PropsWithChildren) {
                   ? 'default'
                   : 'ghost',
                 url: '/admin/exams',
+              },
+              {
+                title: 'Banners',
+                label: '',
+                icon: Image,
+                variant: pathname.includes('/admin/banners')
+                  ? 'default'
+                  : 'ghost',
+                url: '/admin/banners',
               },
               {
                 title: 'Unidades',

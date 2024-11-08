@@ -1,44 +1,47 @@
 {
   "node_modules/laravel-vite-plugin/inertia-helpers/index.js": [],
   "node_modules/md-editor-rt/lib/style.css": [
-    "/build/assets/create-and-edit-users-BNXZqnc9.js",
+    "/build/assets/create-and-edit-users-BCHOn-VM.js",
     "/build/assets/create-and-edit-users-BLEm3f_f.css"
   ],
   "resources/js/components/admin-header/components/user-nav.tsx": [
-    "/build/assets/authenticated-layout-mFQV83D4.js"
+    "/build/assets/authenticated-layout-BsJMxIOs.js"
   ],
   "resources/js/components/admin-header/index.tsx": [
-    "/build/assets/authenticated-layout-mFQV83D4.js"
+    "/build/assets/authenticated-layout-BsJMxIOs.js"
   ],
   "resources/js/components/application-logo.tsx": [
     "/build/assets/login-D4OPde2n.js"
   ],
+  "resources/js/components/data-table/columns/banners-columns.tsx": [
+    "/build/assets/index-C-I4vHkH.js"
+  ],
   "resources/js/components/data-table/columns/clinical-staff-columns.tsx": [
-    "/build/assets/index-CczeYfJd.js"
+    "/build/assets/index-UyDvsYCf.js"
   ],
   "resources/js/components/data-table/columns/exams-columns.tsx": [
-    "/build/assets/index-BUTUjDIB.js"
+    "/build/assets/index-3el2zuf5.js"
   ],
   "resources/js/components/data-table/columns/subexams-columns.tsx": [
-    "/build/assets/index-B0FIVHMs.js"
+    "/build/assets/index-CXCuOYN5.js"
   ],
   "resources/js/components/data-table/columns/units-columns.tsx": [
-    "/build/assets/index-Cj2wNg4T.js"
+    "/build/assets/index-C7oCDprh.js"
   ],
   "resources/js/components/data-table/columns/users.columns.tsx": [
-    "/build/assets/index-DfPk56bh.js"
+    "/build/assets/index-CnM2SetR.js"
   ],
   "resources/js/components/data-table/components/data-table-pagination.tsx": [
-    "/build/assets/data-table-row-actions-CvTvY5WB.js"
+    "/build/assets/data-table-row-actions-CGol8hqn.js"
   ],
   "resources/js/components/data-table/components/data-table-row-actions.tsx": [
-    "/build/assets/data-table-row-actions-CvTvY5WB.js"
+    "/build/assets/data-table-row-actions-CGol8hqn.js"
   ],
   "resources/js/components/data-table/components/data-table-view-options.tsx": [
-    "/build/assets/data-table-row-actions-CvTvY5WB.js"
+    "/build/assets/data-table-row-actions-CGol8hqn.js"
   ],
   "resources/js/components/data-table/index.tsx": [
-    "/build/assets/data-table-row-actions-CvTvY5WB.js"
+    "/build/assets/data-table-row-actions-CGol8hqn.js"
   ],
   "resources/js/components/exam-button.tsx": [
     "/build/assets/exam-button-BoHw9e2x.js"
@@ -49,36 +52,40 @@
   "resources/js/components/footer/index.tsx": [
     "/build/assets/main-layout-B_hnqyyi.js"
   ],
+  "resources/js/components/forms/components/create-and-edit-banners.tsx": [
+    "/build/assets/create-and-edit-users-BCHOn-VM.js",
+    "/build/assets/create-and-edit-users-BLEm3f_f.css"
+  ],
   "resources/js/components/forms/components/create-and-edit-clinical-staff.tsx": [
-    "/build/assets/create-and-edit-users-BNXZqnc9.js",
+    "/build/assets/create-and-edit-users-BCHOn-VM.js",
     "/build/assets/create-and-edit-users-BLEm3f_f.css"
   ],
   "resources/js/components/forms/components/create-and-edit-exams.tsx": [
-    "/build/assets/create-and-edit-users-BNXZqnc9.js",
+    "/build/assets/create-and-edit-users-BCHOn-VM.js",
     "/build/assets/create-and-edit-users-BLEm3f_f.css"
   ],
   "resources/js/components/forms/components/create-and-edit-subexams.tsx": [
-    "/build/assets/create-and-edit-users-BNXZqnc9.js",
+    "/build/assets/create-and-edit-users-BCHOn-VM.js",
     "/build/assets/create-and-edit-users-BLEm3f_f.css"
   ],
   "resources/js/components/forms/components/create-and-edit-units.tsx": [
-    "/build/assets/create-and-edit-users-BNXZqnc9.js",
+    "/build/assets/create-and-edit-users-BCHOn-VM.js",
     "/build/assets/create-and-edit-users-BLEm3f_f.css"
   ],
   "resources/js/components/forms/components/create-and-edit-users.tsx": [
-    "/build/assets/create-and-edit-users-BNXZqnc9.js",
+    "/build/assets/create-and-edit-users-BCHOn-VM.js",
     "/build/assets/create-and-edit-users-BLEm3f_f.css"
   ],
   "resources/js/components/forms/components/fields/md-editor-field.tsx": [
-    "/build/assets/create-and-edit-users-BNXZqnc9.js",
+    "/build/assets/create-and-edit-users-BCHOn-VM.js",
     "/build/assets/create-and-edit-users-BLEm3f_f.css"
   ],
   "resources/js/components/forms/components/fields/upload-image-field.tsx/components/uploaded-image-actions.tsx": [
-    "/build/assets/create-and-edit-users-BNXZqnc9.js",
+    "/build/assets/create-and-edit-users-BCHOn-VM.js",
     "/build/assets/create-and-edit-users-BLEm3f_f.css"
   ],
   "resources/js/components/forms/components/fields/upload-image-field.tsx/index.tsx": [
-    "/build/assets/create-and-edit-users-BNXZqnc9.js",
+    "/build/assets/create-and-edit-users-BCHOn-VM.js",
     "/build/assets/create-and-edit-users-BLEm3f_f.css"
   ],
   "resources/js/components/header/components/header-desktop.tsx": [
@@ -93,32 +100,35 @@
   "resources/js/components/header/index.tsx": [
     "/build/assets/main-layout-B_hnqyyi.js"
   ],
+  "resources/js/components/hero-banner/index.tsx": [
+    "/build/assets/index-BkA-IaTg.js"
+  ],
   "resources/js/components/home-link.tsx": [
-    "/build/assets/index-B730UzcV.js"
+    "/build/assets/index-BkA-IaTg.js"
   ],
   "resources/js/components/input-error.tsx": [
     "/build/assets/login-D4OPde2n.js"
   ],
   "resources/js/components/side-nav/components/nav.tsx": [
-    "/build/assets/authenticated-layout-mFQV83D4.js"
+    "/build/assets/authenticated-layout-BsJMxIOs.js"
   ],
   "resources/js/components/side-nav/index.tsx": [
-    "/build/assets/authenticated-layout-mFQV83D4.js"
+    "/build/assets/authenticated-layout-BsJMxIOs.js"
   ],
   "resources/js/components/text-divider.tsx": [
     "/build/assets/main-layout-B_hnqyyi.js"
   ],
   "resources/js/components/theme-provider.tsx": [
-    "/build/assets/authenticated-layout-mFQV83D4.js"
+    "/build/assets/authenticated-layout-BsJMxIOs.js"
   ],
   "resources/js/components/ui/accordion.tsx": [
     "/build/assets/index-CosMLA9X.js"
   ],
   "resources/js/components/ui/alert-dialog.tsx": [
-    "/build/assets/data-table-row-actions-CvTvY5WB.js"
+    "/build/assets/data-table-row-actions-CGol8hqn.js"
   ],
   "resources/js/components/ui/avatar.tsx": [
-    "/build/assets/authenticated-layout-mFQV83D4.js"
+    "/build/assets/authenticated-layout-BsJMxIOs.js"
   ],
   "resources/js/components/ui/button.tsx": [
     "/build/assets/button-weNgVMLy.js"
@@ -126,18 +136,21 @@
   "resources/js/components/ui/card.tsx": [
     "/build/assets/card-DBb_vtYi.js"
   ],
+  "resources/js/components/ui/carousel.tsx": [
+    "/build/assets/index-BkA-IaTg.js"
+  ],
   "resources/js/components/ui/checkbox.tsx": [
     "/build/assets/checkbox-DyFoBjLW.js"
   ],
   "resources/js/components/ui/dialog.tsx": [
-    "/build/assets/create-and-edit-users-BNXZqnc9.js",
+    "/build/assets/create-and-edit-users-BCHOn-VM.js",
     "/build/assets/create-and-edit-users-BLEm3f_f.css"
   ],
   "resources/js/components/ui/dropdown-menu.tsx": [
-    "/build/assets/authenticated-layout-mFQV83D4.js"
+    "/build/assets/authenticated-layout-BsJMxIOs.js"
   ],
   "resources/js/components/ui/form.tsx": [
-    "/build/assets/create-and-edit-users-BNXZqnc9.js",
+    "/build/assets/create-and-edit-users-BCHOn-VM.js",
     "/build/assets/create-and-edit-users-BLEm3f_f.css"
   ],
   "resources/js/components/ui/input.tsx": [
@@ -147,29 +160,33 @@
     "/build/assets/input-BNCjIeFf.js"
   ],
   "resources/js/components/ui/mode-toggle.tsx": [
-    "/build/assets/authenticated-layout-mFQV83D4.js"
+    "/build/assets/authenticated-layout-BsJMxIOs.js"
   ],
   "resources/js/components/ui/resizable.tsx": [
-    "/build/assets/authenticated-layout-mFQV83D4.js"
+    "/build/assets/authenticated-layout-BsJMxIOs.js"
   ],
   "resources/js/components/ui/scroll-area.tsx": [
-    "/build/assets/authenticated-layout-mFQV83D4.js"
+    "/build/assets/authenticated-layout-BsJMxIOs.js"
   ],
   "resources/js/components/ui/select.tsx": [
-    "/build/assets/data-table-row-actions-CvTvY5WB.js"
+    "/build/assets/data-table-row-actions-CGol8hqn.js"
   ],
   "resources/js/components/ui/separator.tsx": [
-    "/build/assets/authenticated-layout-mFQV83D4.js"
+    "/build/assets/authenticated-layout-BsJMxIOs.js"
   ],
   "resources/js/components/ui/switch.tsx": [
-    "/build/assets/create-and-edit-users-BNXZqnc9.js",
+    "/build/assets/create-and-edit-users-BCHOn-VM.js",
     "/build/assets/create-and-edit-users-BLEm3f_f.css"
   ],
   "resources/js/components/ui/table.tsx": [
-    "/build/assets/data-table-row-actions-CvTvY5WB.js"
+    "/build/assets/data-table-row-actions-CGol8hqn.js"
   ],
   "resources/js/components/ui/tabs.tsx": [
-    "/build/assets/authenticated-layout-mFQV83D4.js"
+    "/build/assets/authenticated-layout-BsJMxIOs.js"
+  ],
+  "resources/js/components/ui/textarea.tsx": [
+    "/build/assets/create-and-edit-users-BCHOn-VM.js",
+    "/build/assets/create-and-edit-users-BLEm3f_f.css"
   ],
   "resources/js/components/ui/toast.tsx": [
     "/build/assets/toaster-CPGl9inu.js"
@@ -178,10 +195,10 @@
     "/build/assets/toaster-CPGl9inu.js"
   ],
   "resources/js/components/ui/tooltip.tsx": [
-    "/build/assets/authenticated-layout-mFQV83D4.js"
+    "/build/assets/authenticated-layout-BsJMxIOs.js"
   ],
   "resources/js/components/unit/components/unit-card.tsx": [
-    "/build/assets/index-B730UzcV.js"
+    "/build/assets/index-BkA-IaTg.js"
   ],
   "resources/js/components/unit/components/unit-item.tsx": [
     "/build/assets/unidades-C96MbtVY.js"
@@ -193,7 +210,7 @@
     "/build/assets/login-D4OPde2n.js"
   ],
   "resources/js/layouts/authenticated-layout.tsx": [
-    "/build/assets/authenticated-layout-mFQV83D4.js"
+    "/build/assets/authenticated-layout-BsJMxIOs.js"
   ],
   "resources/js/layouts/main-layout.tsx": [
     "/build/assets/main-layout-B_hnqyyi.js"
@@ -201,53 +218,62 @@
   "resources/js/lib/utils.ts": [
     "/build/assets/button-weNgVMLy.js"
   ],
+  "resources/js/pages/admin/banners/create.tsx": [
+    "/build/assets/create-B6Fgc0v-.js"
+  ],
+  "resources/js/pages/admin/banners/edit.tsx": [
+    "/build/assets/edit-d_SlWOcq.js"
+  ],
+  "resources/js/pages/admin/banners/index.tsx": [
+    "/build/assets/index-C-I4vHkH.js"
+  ],
   "resources/js/pages/admin/clinical-staff/create.tsx": [
-    "/build/assets/create-BORhhQqx.js"
+    "/build/assets/create-DLsNLQPo.js"
   ],
   "resources/js/pages/admin/clinical-staff/edit.tsx": [
-    "/build/assets/edit-DRLh1Da6.js"
+    "/build/assets/edit-Cvx5lZAv.js"
   ],
   "resources/js/pages/admin/clinical-staff/index.tsx": [
-    "/build/assets/index-CczeYfJd.js"
+    "/build/assets/index-UyDvsYCf.js"
   ],
   "resources/js/pages/admin/exams/create.tsx": [
-    "/build/assets/create-DI6bUx1H.js"
+    "/build/assets/create-DbvODwwg.js"
   ],
   "resources/js/pages/admin/exams/edit.tsx": [
-    "/build/assets/edit-DnKjQSI0.js"
+    "/build/assets/edit-wZflAUeT.js"
   ],
   "resources/js/pages/admin/exams/index.tsx": [
-    "/build/assets/index-BUTUjDIB.js"
+    "/build/assets/index-3el2zuf5.js"
   ],
   "resources/js/pages/admin/exams/subexams/create.tsx": [
-    "/build/assets/create-Cs45gJf4.js"
+    "/build/assets/create-DvmqXKUJ.js"
   ],
   "resources/js/pages/admin/exams/subexams/edit.tsx": [
-    "/build/assets/edit-Du5lc4Lt.js"
+    "/build/assets/edit-D1Z6SXEY.js"
   ],
   "resources/js/pages/admin/exams/subexams/index.tsx": [
-    "/build/assets/index-B0FIVHMs.js"
+    "/build/assets/index-CXCuOYN5.js"
   ],
   "resources/js/pages/admin/index.tsx": [
-    "/build/assets/index-CLaxvdpa.js"
+    "/build/assets/index-D5jtXdVe.js"
   ],
   "resources/js/pages/admin/units/create.tsx": [
-    "/build/assets/create-Dqi530rR.js"
+    "/build/assets/create-eO62Dc2H.js"
   ],
   "resources/js/pages/admin/units/edit.tsx": [
-    "/build/assets/edit-D1zffk-M.js"
+    "/build/assets/edit-CWV-lyNh.js"
   ],
   "resources/js/pages/admin/units/index.tsx": [
-    "/build/assets/index-Cj2wNg4T.js"
+    "/build/assets/index-C7oCDprh.js"
   ],
   "resources/js/pages/admin/users/create.tsx": [
-    "/build/assets/create-CkG4MoQN.js"
+    "/build/assets/create-n4_FVdkG.js"
   ],
   "resources/js/pages/admin/users/edit.tsx": [
-    "/build/assets/edit-QFqxVvSo.js"
+    "/build/assets/edit-D1Iqmdj0.js"
   ],
   "resources/js/pages/admin/users/index.tsx": [
-    "/build/assets/index-DfPk56bh.js"
+    "/build/assets/index-CnM2SetR.js"
   ],
   "resources/js/pages/auth/login.tsx": [
     "/build/assets/login-D4OPde2n.js"
@@ -265,7 +291,7 @@
     "/build/assets/index-D4Zn7XdF.js"
   ],
   "resources/js/pages/index.tsx": [
-    "/build/assets/index-B730UzcV.js"
+    "/build/assets/index-BkA-IaTg.js"
   ],
   "resources/js/pages/unidades.tsx": [
     "/build/assets/unidades-C96MbtVY.js"
