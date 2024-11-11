@@ -43,7 +43,7 @@ export default function Page({ clinicalStaff }: Props) {
                     {staff.name}
                   </p>
                   <p className="text-center text-sm text-gray-500 md:text-2xl">
-                    CRM: {staff.crm}
+                    {staff.crm}
                   </p>
                 </div>
                 {i < clinicalStaff.length - 1 && (

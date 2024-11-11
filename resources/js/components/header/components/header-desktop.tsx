@@ -23,7 +23,7 @@ function HeaderDesktop({ menuItems }: HeaderDesktopProps) {
         </Link>
         <WhatsappButton className="px-6" />
         <a
-          href="https://pacs.irpp.com.br/Netpacs-paciente/#/"
+          href="https://pacs.clinicavidaradiologia.com.br/login"
           target="_blank"
           rel="noreferrer noopener"
         >
