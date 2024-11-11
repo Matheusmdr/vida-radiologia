@@ -14,7 +14,7 @@ class ClinicalStaffController extends Controller
    */
   public function index()
   {
-    $clinicalStaff = ClinicalStaff::orderBy('name', 'asc')->get();
+    $clinicalStaff = ClinicalStaff::orderByRaw('cover IS NULL, name ASC')->get();
 
     return Inertia::render('corpo-clinico', [
       'clinicalStaff' => $clinicalStaff,
@@ -49,7 +49,7 @@ class ClinicalStaffController extends Controller
     $validatedData = $request->validate([
       'name' => 'required|string|max:255',
       'crm' => 'required|string|unique:clinical_staff,crm',
-      'cover' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
+      'cover' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
       'body' => 'nullable|string',
       'phone' => 'nullable|string',
       'email' => 'nullable|string|email',

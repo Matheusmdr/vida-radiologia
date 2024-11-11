@@ -34,11 +34,13 @@ export default function Page({ clinicalStaff }: Props) {
             {clinicalStaff.map((staff, i) => (
               <React.Fragment key={staff.id}>
                 <div className="flex flex-col items-center space-y-2 md:space-y-4">
-                  <img
-                    src={staff.cover}
-                    alt={staff.name}
-                    className="w-60 lg:h-80 lg:w-80"
-                  />
+                  {staff.cover?.trim() && (
+                    <img
+                      src={staff.cover}
+                      alt={staff.name}
+                      className="w-60 lg:h-80 lg:w-80"
+                    />
+                  )}
                   <p className="text-center text-sm text-gray-500 md:text-2xl">
                     {staff.name}
                   </p>
