@@ -37,8 +37,7 @@ const formSchema = z.object({
     .refine(
       (value) => !value.file || value.file?.size <= MAX_FILE_SIZE,
       `Tamanho máximo: ${MAX_FILE_SIZE / 1000}KB`,
-    )
-    .refine((value) => value.preview?.trim(), 'Por favor, insira uma imagem'),
+    ),
 });
 
 type FormValues = z.infer<typeof formSchema>;
