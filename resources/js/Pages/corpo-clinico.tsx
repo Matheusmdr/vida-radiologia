@@ -10,6 +10,23 @@ interface Props {
 }
 
 export default function Page({ clinicalStaff }: Props) {
+  const sortClinicalStaffAlphabetically = (
+    staffList: ClinicalStaff[],
+  ): ClinicalStaff[] => {
+    return staffList.sort((a, b) => {
+      // Remover prefixos "Dr." e "Dra." do nome
+      const nameA = a.name.replace(/^(Dr\.|Dra\.)\s*/i, '').toLowerCase();
+      const nameB = b.name.replace(/^(Dr\.|Dra\.)\s*/i, '').toLowerCase();
+
+      // Comparar os nomes sem os prefixos
+      if (nameA < nameB) return -1;
+      if (nameA > nameB) return 1;
+      return 0;
+    });
+  };
+
+  const sortedStaff = sortClinicalStaffAlphabetically(clinicalStaff);
+
   return (
     <MainLayout>
       <Head title="Corpo Clínico" />
@@ -31,7 +48,7 @@ export default function Page({ clinicalStaff }: Props) {
             </p>
           </div>
           <div className="mx-auto grid w-3/5 max-w-7xl grid-cols-1 place-items-center items-center justify-center justify-items-center gap-6 sm:w-4/5 md:grid-cols-2 md:gap-12">
-            {clinicalStaff.map((staff, i) => (
+            {sortedStaff.map((staff, i) => (
               <React.Fragment key={staff.id}>
                 <div className="flex flex-col items-center space-y-2 md:space-y-4">
                   {staff.cover?.trim() && (
