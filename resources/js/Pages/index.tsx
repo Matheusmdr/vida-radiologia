@@ -20,7 +20,11 @@ export default function Page({ units, banners }: Props) {
       <main className="bg-main-background py-10 md:py-20">
         <section className="block md:hidden">
           <div className="mx-auto flex w-3/5 max-w-sm flex-col justify-center gap-2 md:gap-6">
-            <HomeLink href="/" text="Resultados de Exames" />
+            <HomeLink
+              href="https://pacs.clinicavidaradiologia.com.br/login"
+              text="Resultados de Exames"
+              isExternal
+            />
             <HomeLink href="/exames" text="Nossos Exames" />
             <HomeLink href="/convenios" text="Convênios Atendidos" />
           </div>

@@ -6,11 +6,14 @@ import { buttonVariants } from './ui/button';
 interface HomeLinkProps {
   href: string;
   text: string;
+  isExternal?: boolean
 }
 
-function HomeLink({ href, text }: HomeLinkProps) {
+function HomeLink({ href, text, isExternal = false }: HomeLinkProps) {
+  const Anchor = isExternal ? 'a' : Link;
+
   return (
-    <Link
+    <Anchor
       href={href}
       className={cn(
         buttonVariants({ variant: 'default' }),
@@ -24,7 +27,7 @@ function HomeLink({ href, text }: HomeLinkProps) {
       <span className="inline-flex h-full w-full items-center justify-center rounded-r-md bg-blue-primary p-2 text-sm font-medium text-white md:text-2xl">
         {text}
       </span>
-    </Link>
+    </Anchor>
   );
 }
 
